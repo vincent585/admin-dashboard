@@ -60,4 +60,24 @@
     height: calc(250px * 1.5);
     padding: 20px;
     border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.announcement-info {
+    padding: 15px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.announcement-info p {
+    margin: 5px 0px 15px 0px;
+}
+
+.announcement-info:last-child p {
+    margin-bottom: 0;
+}
+
+.announcement-info:last-child {
+    padding-top: 0;
 }
