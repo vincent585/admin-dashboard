@@ -11,10 +11,12 @@
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: #1992d4;
     grid-row: 1 / 3;
     display: grid;
     grid-template-rows: 1fr 3fr 6fr;
+    color: #f5fafd;
+    z-index: 0;
 }
 
 .sidebar-top,
@@ -24,11 +26,18 @@
     grid-template-columns: 1fr 2fr;
 }
 
+.sidebar a {
+    text-decoration: none;
+    color: #f5fafd;
+}
+
 .header {
     grid-column: 2 / 3;
-    box-shadow: 0 8px 6px -6px gray;
+    box-shadow: 0 8px 8px -6px #ccd1d8;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    background-color: #fff;
+    z-index: 1;
 }
 
 .header-left {
@@ -55,7 +64,7 @@
 }
 
 .main-content {
-    background-color: #bccbde;
+    background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 30px;
@@ -73,10 +82,10 @@
 }
 
 .projects .card {
-    background-color: white;
+    background-color: #fff;
     padding: 15px;
-    box-shadow: 4px 4px 4px gray;
-    border-left: 10px gold solid;
+    box-shadow: 4px 4px 4px #ccd1d8;
+    border-left: 10px #f0b429 solid;
     border-radius: 10px;
     height: 250px;
 }
@@ -88,8 +97,8 @@
 
 .announcements .card,
 .trending .card {
-    background-color: white;
-    box-shadow: 4px 4px 4px gray;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px #ccd1d8;
     height: calc(250px * 1.5);
     padding: 20px;
     border-radius: 10px;
