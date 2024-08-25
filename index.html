@@ -1,81 +1,97 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Admin Dashboard</title>
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <div class="container">
-            <div class="sidebar">
-                <div class="sidebar-top">
-                    <img src="" alt="dashboard icon" />
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-top">
+                <div class="sidebar-content">
+                    <img src="./assets/view-dashboard.svg" alt="dashboard icon" />
                     <h1><a href="">Dashboard</a></h1>
                 </div>
-                <div class="sidebar-middle">
-                    <div class="icons">
-                        <img src="" alt="home" />
-                        <img src="" alt="profile" />
-                        <img src="" alt="messages" />
-                        <img src="" alt="history" />
-                        <img src="" alt="tasks" />
-                        <img src="" alt="communities" />
-                    </div>
-                    <div class="links">
-                        <p><a href="">Home</a></p>
-                        <p><a href="">Profile</a></p>
-                        <p><a href="">Messages</a></p>
-                        <p><a href="">History</a></p>
-                        <p><a href="">Tasks</a></p>
-                        <p><a href="">Communities</a></p>
-                    </div>
+            </div>
+            <div class="sidebar-middle">
+                <div class="sidebar-content">
+                    <img src="./assets/home-variant.svg" alt="home" />
+                    <h2><a href="">Home</a></h2>
                 </div>
-                <div class="sidebar-bottom">
-                    <div class="icons">
-                        <img src="" alt="settings" />
-                        <img src="" alt="support" />
-                        <img src="" alt="privacy" />
-                    </div>
-                    <div class="links">
-                        <p><a href="">Settings</a></p>
-                        <p><a href="">Privacy</a></p>
-                        <p><a href="">Support</a></p>
+                <div class="sidebar-content">
+                    <img src="./assets/card-account-details-outline.svg" alt="profile" />
+                    <h2><a href="">Profile</a></h2>
+                </div>
+                <div class="sidebar-content">
+                    <img src="./assets/message.svg" alt="messages" />
+                    <h2><a href="">Messages</a></h2>
+                </div>
+                <div class="sidebar-content">
+                    <img src="./assets/clock-time-three.svg" alt="history" />
+                    <h2><a href="">History</a></h2>
+                </div>
+                <div class="sidebar-content">
+                    <img src="./assets/note-multiple.svg" alt="tasks" />
+                    <h2><a href="">Tasks</a></>
+                </div>
+                <div class="sidebar-content">
+                    <img src="./assets/account-group.svg" alt="communities" />
+                    <h2><a href="">Communities</a></h2>
+                </div>
+            </div>
+            <div class="sidebar-bottom">
+                <div class="sidebar-content">
+                    <img src="./assets/cog.svg" alt="settings" />
+                    <h2><a href="">Settings</a></h2>
+                </div>
+                <div class="sidebar-content">
+                    <img src="./assets/shield-check.svg" alt="support" />
+                    <h2><a href="">Privacy</a></h2>
+                </div>
+                <div class="sidebar-content">
+                    <img src="./assets/help-box.svg" alt="privacy" />
+                    <h2><a href="">Support</a></h2>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header-left">
+                <div class="search">
+                    <img src="./assets/search-web.svg" alt="search icon">
+                    <input type="search" name="" id="" />
+                </div>
+                <div class="user-greeting">
+                    <img src="" alt="profile pic" />
+                    <div>
+                        <p><strong>Hi there,</strong></p>
+                        <h2><strong>Dude Dudeson (@thedude)</strong></h2>
                     </div>
                 </div>
             </div>
-            <div class="header">
-                <div class="header-left">
-                    <div class="search">
-                        <img src="" alt="magnifying glass icon" />
-                        <input type="search" name="" id="" />
-                    </div>
-                    <div class="user-greeting">
-                        <img src="" alt="profile pic" />
-                        <div>
-                            <p><strong>Hi there,</strong></p>
-                            <p><strong>Dude Dudeson (@thedude)</strong></p>
-                        </div>
-                    </div>
+            <div class="header-right">
+                <div class="profile-info">
+                    <img src="./assets/bell-ring-outline.svg" alt="bell notification icon" />
+                    <img src="" alt="profile pic" />
+                    <p><strong>Dude Dudeson</strong></p>
                 </div>
-                <div class="header-right">
-                    <div class="profile-info">
-                        <img src="" alt="bell notification icon" />
-                        <img src="" alt="profile pic" />
-                        <p><strong>Dude Dudeson</strong></p>
-                    </div>
-                    <div class="actions">
-                        <button type="submit">New</button>
-                        <button type="submit">Upload</button>
-                        <button type="submit">Share</button>
-                    </div>
+                <div class="actions">
+                    <button type="submit">New</button>
+                    <button type="submit">Upload</button>
+                    <button type="submit">Share</button>
                 </div>
             </div>
-            <div class="main-content">
-                <div class="projects">
-                    <h2>Your Projects</h2>
-                    <div class="project-cards">
-                        <div class="card">
+        </div>
+        <div class="main-content">
+            <div class="projects">
+                <h2>Your Projects</h2>
+                <div class="project-cards">
+                    <div class="card">
+                        <div class="card-content">
+
                             <p><strong>Super Cool Project</strong></p>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur
@@ -87,7 +103,9 @@
                                 dolorem, quidem labore necessitatibus.
                             </p>
                         </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
                             <p><strong>Less Cool Project</strong></p>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur
@@ -99,7 +117,9 @@
                                 Ad ullam explicabo id.
                             </p>
                         </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
                             <p><strong>Impossible App</strong></p>
                             <p>
                                 Lorem ipsum, dolor sit amet consectetur
@@ -109,7 +129,9 @@
                                 hic nesciunt animi dolores non.
                             </p>
                         </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
                             <p><strong>Easy Peasy App</strong></p>
                             <p>
                                 Lorem ipsum dolor, sit amet consectetur
@@ -118,7 +140,9 @@
                                 porro?
                             </p>
                         </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
                             <p><strong>Ad Blocker</strong></p>
                             <p>
                                 Lorem ipsum, dolor sit amet consectetur
@@ -130,85 +154,89 @@
                                 Veritatis, dolorem!
                             </p>
                         </div>
-                        <div class="card">
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
                             <p><strong>Money Maker</strong></p>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Magnam assumenda nam molestias
-                                quibusdam reprehenderit non eos, omnis mollitia
-                                reiciendis. Quae nisi beatae quos. Doloremque,
-                                corporis.
+                                adipisicing elit. Magnam assumenda nam
+                                molestias quibusdam reprehenderit non eos,
+                                omnis mollitia reiciendis. Quae nisi beatae
+                                quos. Doloremque, corporis.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="side-content">
-                    <div class="announcements">
-                        <h2>Announcements</h2>
-                        <div class="card">
-                            <div class="announcement-info">
-                                <strong>Site Maintenance</strong>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Amet incidunt labore
-                                    recusandae fuga. Libero, reprehenderit.
-                                </p>
-                                <hr />
-                            </div>
-                            <div class="announcement-info">
-                                <strong>Community Share Day</strong>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit. Quaerat, dolores.
-                                </p>
-                                <hr />
-                            </div>
-                            <div class="announcement-info">
-                                <strong>Updated Privacy Policy</strong>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error laborum animi
-                                    aspernatur, quam beatae maxime cumque.
-                                    Laudantium et quas corrupti.
-                                </p>
-                            </div>
+            </div>
+            <div class="side-content">
+                <div class="announcements">
+                    <h2>Announcements</h2>
+                    <div class="card">
+                        <div class="announcement-info">
+                            <strong>Site Maintenance</strong>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Amet incidunt labore
+                                recusandae fuga. Libero, reprehenderit.
+                            </p>
+                            <hr />
+                        </div>
+                        <div class="announcement-info">
+                            <strong>Community Share Day</strong>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Quaerat, dolores.
+                            </p>
+                            <hr />
+                        </div>
+                        <div class="announcement-info">
+                            <strong>Updated Privacy Policy</strong>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Error laborum animi
+                                aspernatur, quam beatae maxime cumque.
+                                Laudantium et quas corrupti.
+                            </p>
                         </div>
                     </div>
-                    <div class="trending">
-                        <h2>Trending</h2>
-                        <div class="card">
-                            <div class="user">
-                                <img src="" alt="placeholder" />
-                                <div class="user-info">
-                                    <strong>@SomeGuy</strong>
-                                    <p>Some Guy's tag</p>
-                                </div>
+                </div>
+                <div class="trending">
+                    <h2>Trending</h2>
+                    <div class="card">
+                        <div class="user">
+                            <img src="" alt="placeholder" />
+                            <div class="user-info">
+                                <strong>@SomeGuy</strong>
+                                <p>Some Guy's tag</p>
                             </div>
-                            <div class="user">
-                                <img src="" alt="placeholder" />
-                                <div class="user-info">
-                                    <strong>@SomeGal</strong>
-                                    <p>Some Gal's tag</p>
-                                </div>
+                        </div>
+                        <div class="user">
+                            <img src="" alt="placeholder" />
+                            <div class="user-info">
+                                <strong>@SomeGal</strong>
+                                <p>Some Gal's tag</p>
                             </div>
-                            <div class="user">
-                                <img src="" alt="placeholder" />
-                                <div class="user-info">
-                                    <strong>@SomeOther</strong>
-                                    <p>Some Other's tag</p>
-                                </div>
+                        </div>
+                        <div class="user">
+                            <img src="" alt="placeholder" />
+                            <div class="user-info">
+                                <strong>@SomeOther</strong>
+                                <p>Some Other's tag</p>
                             </div>
-                            <div class="user">
-                                <img src="" alt="placeholder" />
-                                <div class="user-info">
-                                    <strong>@SomeOtherOther</strong>
-                                    <p>Some OtherOther's tag</p>
-                                </div>
+                        </div>
+                        <div class="user">
+                            <img src="" alt="placeholder" />
+                            <div class="user-info">
+                                <strong>@SomeOtherOther</strong>
+                                <p>Some OtherOther's tag</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
