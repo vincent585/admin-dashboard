@@ -13,6 +13,15 @@
 .sidebar {
     background-color: blue;
     grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: 1fr 3fr 6fr;
+}
+
+.sidebar-top,
+.sidebar-middle,
+.sidebar-bottom {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .header {
