@@ -18,7 +18,31 @@
 .header {
     grid-column: 2 / 3;
     box-shadow: 0 8px 6px -6px gray;
-    background-color: red;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.header-left {
+    display: grid;
+}
+
+.user-greeting {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.header-right {
+    display: grid;
+}
+
+.profile-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .main-content {
@@ -81,10 +105,6 @@
 
 .announcement-info:last-child p {
     margin-bottom: 0;
-}
-
-.announcement-info:last-child {
-    padding-top: 5px;
 }
 
 .user {
